@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import ProductList from "./components/ProductList"
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="h-lvh">
       <Header />
-      <h1>App</h1>
+      <ProductList />
     </div>
   )
 }
